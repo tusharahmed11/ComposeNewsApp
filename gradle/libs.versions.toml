@@ -1,6 +1,6 @@
 [versions]
-accompanist-systemuicontroller = "0.31.4-beta"
-agp = "8.3.0-alpha07"
+accompanist-systemuicontroller = "0.32.0"
+agp = "8.4.0-alpha03"
 coil-compose = "2.4.0"
 core-splashscreen = "1.0.1"
 datastore-preferences = "1.0.0"
@@ -18,7 +18,7 @@ compose-bom = "2023.10.00"
 navigation-compose = "2.7.4"
 paging-runtime = "3.2.1"
 retrofit = "2.9.0"
-room-runtime = "2.5.2"
+room-runtime = "2.6.0"
 
 [libraries]
 accompanist-systemuicontroller = { module = "com.google.accompanist:accompanist-systemuicontroller", version.ref = "accompanist-systemuicontroller" }
@@ -34,6 +34,8 @@ androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "room-run
 androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "room-runtime" }
 coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coil-compose" }
 converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
+
+
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hilt-android" }
 hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hilt-android" }

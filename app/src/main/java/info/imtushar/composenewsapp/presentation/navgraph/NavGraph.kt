@@ -8,16 +8,9 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.navigation
 import androidx.navigation.compose.rememberNavController
-import androidx.paging.compose.collectAsLazyPagingItems
-import info.imtushar.composenewsapp.presentation.bookmark.BookmarkScreen
-import info.imtushar.composenewsapp.presentation.bookmark.BookmarkViewModel
-import info.imtushar.composenewsapp.presentation.home.HomeScreen
-import info.imtushar.composenewsapp.presentation.home.HomeViewModel
 import info.imtushar.composenewsapp.presentation.news_navigator.NewsNavigation
 import info.imtushar.composenewsapp.presentation.onboarding.OnboardingScreen
 import info.imtushar.composenewsapp.presentation.onboarding.OnboardingViewModel
-import info.imtushar.composenewsapp.presentation.search.SearchScreen
-import info.imtushar.composenewsapp.presentation.search.SearchViewModel
 
 @Composable
 fun NavGraph(
